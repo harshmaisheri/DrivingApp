@@ -39,8 +39,8 @@ const drivingData = [
 ];
 
 const location = {
-  latitude: 40.73978092263567,
-  longitude: -73.87333547273988,
+  latitude: 19.1733943,
+  longitude: 72.9517128,
   latitudeDelta: 0.06,
   longitudeDelta: 0.06,
 };
