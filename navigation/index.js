@@ -3,6 +3,7 @@ import { createStackNavigator } from "react-navigation-stack";
 
 import Welcome from "../screens/Welcome";
 import Rewards from "../screens/Rewards";
+import Trip from "../screens/Trip";
 
 import { theme } from "../constants";
 
@@ -10,6 +11,7 @@ const screens = createStackNavigator(
   {
     Welcome,
     Rewards,
+    Trip,
   },
   {
     defaultNavigationOptions: {

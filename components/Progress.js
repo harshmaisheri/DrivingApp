@@ -30,7 +30,7 @@ class Progress extends Component {
           style={[styles.overlay, { flex: value }]}
           colors={[
             rgba(startColor, `${opacity}`),
-            rgba(endColor, `${opacity}`)
+            rgba(endColor, `${opacity}`),
           ]}
         >
           <LinearGradient
@@ -48,7 +48,7 @@ Progress.defaultProps = {
   startColor: "#4F8DFD",
   endColor: "#3FE4D4",
   value: 0.75,
-  opacity: 0.2
+  opacity: 0.2,
 };
 
 export default Progress;
@@ -57,18 +57,18 @@ const styles = StyleSheet.create({
   background: {
     height: 6,
     marginVertical: 8,
-    borderRadius: 8
+    borderRadius: 8,
   },
   overlay: {
     height: 14,
     maxHeight: 14,
     borderRadius: 7,
-    paddingHorizontal: 4
+    paddingHorizontal: 4,
   },
   active: {
     marginTop: 4,
     height: 6,
     maxHeight: 6,
-    borderRadius: 7
-  }
+    borderRadius: 7,
+  },
 });
