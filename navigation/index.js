@@ -1,14 +1,15 @@
-import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 
 import Welcome from "../screens/Welcome";
+import Rewards from "../screens/Rewards";
 
 import { theme } from "../constants";
 
 const screens = createStackNavigator(
   {
     Welcome,
+    Rewards,
   },
   {
     defaultNavigationOptions: {
